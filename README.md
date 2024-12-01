@@ -190,6 +190,18 @@ echo 'INSERT-RUN-COMMAND-HERE'
 Run the test suite using the following command:
 echo 'INSERT-TEST-COMMAND-HERE'
 
+
+### 📈 Benchmark
+Use [hyperfine]() to test software benchmark.
+
+```bash
+$ hyperfine --warmup 3 --runs 50 "python main.py" --export-markdown hyperfine.benchmark.md
+```
+
+| Versions| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
+|:---|:---|---:|---:|---:|---:|
+|historian-hysteria:0.1.1| `python main.py` | 125.0 ± 10.1 | 110.7 | 152.8 | 1.00 |
+
 ---
 ## 📌 Project Roadmap
 
