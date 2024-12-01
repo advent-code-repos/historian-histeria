@@ -1,7 +1,7 @@
 from configs.logger import logger
 from controllers.factories import create_historian_hysteria
 
-INPUT_PATH = "input.example"
+INPUT_PATH = "inputs/input.first"
 
 
 def main():
@@ -16,9 +16,8 @@ def main():
     locations = historian_hysteria.read(INPUT_PATH)
     logger.debug(f"Locations: {locations}")
 
-    left_list, right_list = map(list, locations)
-    logger.debug(f"Left list: {left_list}")
-    logger.debug(f"Right list: {right_list}")
+    distance_value = historian_hysteria.distance(locations)
+    logger.info(f"Distance value: {distance_value}")
 
 
 if __name__ == "__main__":
