@@ -33,7 +33,9 @@ def main():
         "========================= SOLUTIONs =========================="
     )
     logger.info(f"Distance value: {distance_value}")
-    logger.info("Distance occurrence based value: {distance_occurrence_value}")
+    logger.info(
+        f"Distance occurrence based value: {distance_occurrence_value}"
+    )
     logger.info(
         "=============================================================="
     )
