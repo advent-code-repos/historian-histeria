@@ -201,6 +201,7 @@ $ hyperfine --warmup 3 --runs 50 "python main.py" --export-markdown hyperfine.be
 | Versions| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|:---|---:|---:|---:|---:|
 |historian-hysteria:0.1.1| `python main.py` | 125.0 ± 10.1 | 110.7 | 152.8 | 1.00 |
+|historian-hysteria:0.2.0| `python main.py` | 107.6 ± 5.7 | 100.6 | 129.7 | 1.00 |
 
 ---
 ## 📌 Project Roadmap

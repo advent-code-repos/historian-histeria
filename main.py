@@ -19,16 +19,12 @@ def main():
     distance_value = historian_hysteria.distance(locations)
     logger.debug(f"Distance value: {distance_value}")
 
-    locations = historian_hysteria.read(INPUT_PATH)
-    logger.debug(f"Locations: {locations}")
-
     distance_occurrence_value = historian_hysteria.distance_occurrence_based(
         locations
     )
     logger.debug(
         f"Distance occurrence based value: {distance_occurrence_value}"
     )
-
     logger.info(
         "========================= SOLUTIONs =========================="
     )
