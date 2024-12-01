@@ -29,3 +29,15 @@ class HistorianHysteria:
 
         self.logger.info("Distance operation ends.")
         return distance_value
+
+    def distance_occurrence_based(self, locations):
+        self.logger.info("Distance operation starts.")
+        self.logger.debug(f"Params locations: {locations}")
+
+        distance_value = self._location_service.distance_occurrence_based(
+            locations
+        )
+        self.logger.debug(f"Return value distance_value: {distance_value}")
+
+        self.logger.info("Distance operation ends.")
+        return distance_value
