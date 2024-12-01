@@ -69,8 +69,8 @@
     │   ├── factories.py
     │   └── historian_hysteria.py
     ├── inputs
-    │   ├── input.first
-    │   └── input.first.example
+    │   ├── input
+    │   └── input.example
     ├── main.py
     └── services
         ├── file_service.py
@@ -112,11 +112,11 @@
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/inputs/input.first.example'>input.first.example</a></b></td>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/inputs/input.example'>input.example</a></b></td>
 				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/inputs/input.first'>input.first</a></b></td>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/inputs/input'>input</a></b></td>
 				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
