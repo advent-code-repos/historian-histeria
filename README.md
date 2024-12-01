@@ -23,7 +23,8 @@
 </p>
 <p align="left">Built with the tools and technologies:</p>
 <p align="left">
-	</p>
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat-square&logo=Python&logoColor=white" alt="Python">
+</p>
 <br>
 
 ## 🔗 Table of Contents
@@ -60,7 +61,20 @@
 
 ```sh
 └── historian-histeria/
-    └── LICENSE
+    ├── LICENSE
+    ├── README.md
+    ├── configs
+    │   └── logger.py
+    ├── controllers
+    │   ├── factories.py
+    │   └── historian_hysteria.py
+    ├── inputs
+    │   ├── input.first
+    │   └── input.first.example
+    ├── main.py
+    └── services
+        ├── file_service.py
+        └── location_service.py
 ```
 
 
@@ -71,6 +85,66 @@
 		<summary><b>__root__</b></summary>
 		<blockquote>
 			<table>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/main.py'>main.py</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+	<details> <!-- services Submodule -->
+		<summary><b>services</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/services/location_service.py'>location_service.py</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/services/file_service.py'>file_service.py</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+	<details> <!-- inputs Submodule -->
+		<summary><b>inputs</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/inputs/input.first.example'>input.first.example</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/inputs/input.first'>input.first</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+	<details> <!-- controllers Submodule -->
+		<summary><b>controllers</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/controllers/historian_hysteria.py'>historian_hysteria.py</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/controllers/factories.py'>factories.py</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+	<details> <!-- configs Submodule -->
+		<summary><b>configs</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/historian-histeria/blob/master/configs/logger.py'>logger.py</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
 			</table>
 		</blockquote>
 	</details>
@@ -83,7 +157,7 @@
 
 Before getting started with historian-histeria, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** Error detecting primary_language: {}
+- **Programming Language:** Python
 
 
 ### ⚙️ Installation
